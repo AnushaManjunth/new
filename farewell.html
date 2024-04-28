@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitation Card</title>
+  <style>
+    body {
+	  background-image: url(data:image/jpeg;base64,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.jpeg);
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 25px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .card-header {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+	  font-style:italic;
+	  line-height: 0;
+	  font-weight:bold;
+    }
+
+    .card-body {
+      padding: 10px;
+	  font-style:italic;
+    }
+
+    .invitation-text {
+      line-height: 1.5;
+    }
+
+    .footer {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+	  font-weight:bold;
+    }
+	
+  </style>
+</head>
+<body>
+	
+  <div class="card">
+    <div class="card-header">
+      <h1>Aurora</h1><br/><p>Dawn of new beginning</p>
+    </div>
+    <div class="card-body">
+      <p class="invitation-text">"We are absolutely thrilled to extend this warm invitation to all our wonderful freshers! Your arrival marks the beginning of an exciting journey filled with endless possibilities and delightful experiences. Your presence at our Freshers' Party will surely make it a day to remember, and we can't wait to create unforgettable memories together!"</p>
+      <p class="invitation-text">Date: May 3 and 4, 2024</p>
+      <p class="invitation-text">Time: 10:00 AM</p>
+      <p class="invitation-text">Location: Maharani Cluster University.</p>
+    </div>
+    <div class="footer">
+      <p>By your beloved Seniors.</p>
+    </div>
+  </div>
+
+</body>
+</html>
